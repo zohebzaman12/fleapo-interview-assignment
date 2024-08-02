@@ -226,6 +226,11 @@ body {
     position: relative;
 }
 
+.about-image-container-two {
+    display: none;
+}
+
+
 .about-image{
     width: 713px; 
     height: 742px;
@@ -290,31 +295,32 @@ body {
 
 @media (max-width: 768px) {
 
-    .about-information-text{
+    .about-information-text,.about-information-container{
         display: none;
     }
 
-    .about-image-container {
+    .about-image-container-two {
+        display: block
+    }
+    .about-image-container-two {
         background: #0039FF;
-        width: 190%;
+        width: 120%;
         height: 348.91px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-
+        position: relative;
+        overflow: hidden;
       }
     
-      .about-image{
+      .about-image-two{
         position: absolute;
         bottom: -9px;
-        left: 20%;
+        left: 40%;
         transform: translateX(-25%);
         width: 320.31px;
         height: 348.91px;
       }
 
-      .about-image-gradient {
-        display: none;
-      }
-    
+
 
 }
