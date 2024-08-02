@@ -287,7 +287,6 @@ body {
     width: auto;
 }
 .clipout-two img {
-    top:-10px;
     right: 0;
     width: auto;
 }
@@ -295,7 +294,7 @@ body {
 
 @media (max-width: 768px) {
 
-    .about-information-text,.about-information-container{
+    .about-information-text,.about-information-container,.clipout-one,.clipout-two{
         display: none;
     }
 
