@@ -63,7 +63,9 @@ For deploying the website:
 1. **Host Files**: Upload `index.html`, `styles.css`, and the `assets` folder to your web hosting service.
 2. **Verify Deployment**: Ensure the site is live and accessible via your domain.
 
-## License
+## Screenshots
+
+[![screenshot.png](https://i.postimg.cc/MGBFxhxG/screenshot.png)](https://postimg.cc/cKsmBkvq)
 
 
 ---
